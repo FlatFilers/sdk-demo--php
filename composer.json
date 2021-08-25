@@ -1,0 +1,12 @@
+{
+    "name": "maxblank/sdk-demo--php",
+    "authors": [
+        {
+            "name": "Max Blank",
+            "email": "blank.maksym@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.4"
+    }
+}
