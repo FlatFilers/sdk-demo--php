@@ -26,7 +26,7 @@ $token = \Firebase\JWT\JWT::encode(
   <button id="import">Import Data</button>
 
   <script>
-    const importer = flatfileImporter('<?php echo $token; ?>', {env: 'staging'})
+    const importer = flatfileImporter('<?php echo $token; ?>')
 
     importer.on('init', ({ batchId }) => {
       console.log(`Batch ${batchId} has been initialized.`)
