@@ -20,7 +20,7 @@ $token = \Firebase\JWT\JWT::encode(
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flatfile SDK Demo</title>
-  <script src="https://sdk-v3-beta.s3.us-west-2.amazonaws.com/index.js"></script>
+  <script src="https://unpkg.com/@flatfile/sdk/dist/index.js"></script>
 </head>
 <body>
   <button id="import">Import Data</button>
